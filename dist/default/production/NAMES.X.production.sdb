@@ -1,0 +1,339 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"71 C:\Users\2020\Desktop\PICGasDetection\gas detection-tassneem+alaa\gasDetection\gasDetection.c
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+"80
+[v _main main `(v  1 e 1 0 ]
+"116
+[v _initPorts initPorts `(v  1 e 1 0 ]
+"126
+[v _setupSerial setupSerial `(v  1 e 1 0 ]
+"162
+[v _send_byte_no_lib send_byte_no_lib `(v  1 e 1 0 ]
+"20 C:\Users\2020\Desktop\PICGasDetection\gas detection-tassneem+alaa\gasDetection\lcd_x8.c
+[v _delay_cycles delay_cycles `(v  1 e 1 0 ]
+"29
+[v _lcd_send_nibble lcd_send_nibble `(v  1 e 1 0 ]
+"39
+[v _lcd_send_byte lcd_send_byte `(v  1 e 1 0 ]
+"56
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"89
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+"106
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+"120
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+[s S24 lcd_pin_map 1 `uc 1 un1 1 0 :1:0 
+`uc 1 rs 1 0 :1:1 
+`uc 1 rw 1 0 :1:2 
+`uc 1 enable 1 0 :1:3 
+`uc 1 data 1 0 :4:4 
+]
+"23 C:\Users\2020\Desktop\PICGasDetection\gas detection-tassneem+alaa\gasDetection/lcd_x8.h
+[v _lcd lcd `S24  1 e 1 @3971 ]
+[s S150 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"230 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4620.h
+[s S159 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S168 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S177 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S180 . 1 `S150 1 . 1 0 `S159 1 . 1 0 `S168 1 . 1 0 `S177 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES180  1 e 1 @3969 ]
+[s S90 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"572
+[s S99 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S108 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S113 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S116 . 1 `S90 1 . 1 0 `S99 1 . 1 0 `S108 1 . 1 0 `S113 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES116  1 e 1 @3971 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S379 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2596
+[s S388 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S392 . 1 `S379 1 . 1 0 `S388 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES392  1 e 1 @3998 ]
+"3020
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S324 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3061
+[s S333 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S336 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S339 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S342 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S345 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S347 . 1 `S324 1 . 1 0 `S333 1 . 1 0 `S336 1 . 1 0 `S339 1 . 1 0 `S342 1 . 1 0 `S345 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES347  1 e 1 @4011 ]
+"3230
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S271 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3269
+[s S280 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S289 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S292 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S294 . 1 `S271 1 . 1 0 `S280 1 . 1 0 `S289 1 . 1 0 `S292 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES294  1 e 1 @4012 ]
+"3486
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3498
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3510
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3522
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S229 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4015
+[s S238 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 RXCKP 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S243 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S246 . 1 `S229 1 . 1 0 `S238 1 . 1 0 `S243 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES246  1 e 1 @4024 ]
+"4444
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6374
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"6 C:\Users\2020\Desktop\PICGasDetection\gas detection-tassneem+alaa\gasDetection\lcd_x8.c
+[v _LCD_INIT_STRING LCD_INIT_STRING `[4]uc  1 e 4 0 ]
+"80 C:\Users\2020\Desktop\PICGasDetection\gas detection-tassneem+alaa\gasDetection\gasDetection.c
+[v _main main `(v  1 e 1 0 ]
+{
+"84
+[v main@i i `i  1 a 2 21 ]
+"115
+} 0
+"126
+[v _setupSerial setupSerial `(v  1 e 1 0 ]
+{
+"143
+} 0
+"120 C:\Users\2020\Desktop\PICGasDetection\gas detection-tassneem+alaa\gasDetection\lcd_x8.c
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v lcd_puts@s s `*.25uc  1 p 2 18 ]
+"125
+} 0
+"106
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+{
+[v lcd_putc@c c `uc  1 a 1 wreg ]
+[v lcd_putc@c c `uc  1 a 1 wreg ]
+[v lcd_putc@c c `uc  1 a 1 17 ]
+"118
+} 0
+"89
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+{
+[v lcd_gotoxy@x x `uc  1 a 1 wreg ]
+"90
+[v lcd_gotoxy@address address `uc  1 a 1 14 ]
+"89
+[v lcd_gotoxy@x x `uc  1 a 1 wreg ]
+[v lcd_gotoxy@y y `uc  1 p 1 10 ]
+[v lcd_gotoxy@x x `uc  1 a 1 13 ]
+"104
+} 0
+"56
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"58
+[v lcd_init@i i `uc  1 a 1 10 ]
+"76
+} 0
+"39
+[v _lcd_send_byte lcd_send_byte `(v  1 e 1 0 ]
+{
+[v lcd_send_byte@cm_data cm_data `uc  1 a 1 wreg ]
+[v lcd_send_byte@cm_data cm_data `uc  1 a 1 wreg ]
+[v lcd_send_byte@n n `uc  1 p 1 8 ]
+"43
+[v lcd_send_byte@cm_data cm_data `uc  1 a 1 9 ]
+"54
+} 0
+"29
+[v _lcd_send_nibble lcd_send_nibble `(v  1 e 1 0 ]
+{
+[v lcd_send_nibble@n n `uc  1 a 1 wreg ]
+[v lcd_send_nibble@n n `uc  1 a 1 wreg ]
+"31
+[v lcd_send_nibble@n n `uc  1 a 1 7 ]
+"37
+} 0
+"20
+[v _delay_cycles delay_cycles `(v  1 e 1 0 ]
+{
+[v delay_cycles@n n `uc  1 a 1 wreg ]
+"21
+[v delay_cycles@x x `i  1 a 2 3 ]
+"20
+[v delay_cycles@n n `uc  1 a 1 wreg ]
+"22
+[v delay_cycles@n n `uc  1 a 1 5 ]
+"26
+} 0
+"71 C:\Users\2020\Desktop\PICGasDetection\gas detection-tassneem+alaa\gasDetection\gasDetection.c
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+{
+"73
+[v delay_ms@i i `i  1 a 2 2 ]
+"71
+[v delay_ms@n n `ui  1 p 2 0 ]
+"77
+} 0
+"116
+[v _initPorts initPorts `(v  1 e 1 0 ]
+{
+"125
+} 0
